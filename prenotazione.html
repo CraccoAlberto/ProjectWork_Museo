@@ -1,0 +1,32 @@
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <title>Prenotazione visite</title>
+    </head>
+
+    <body>
+        <h3>Museo "Le meraviglie del '900"</h3>
+        <br><br><br>
+        <h4>Prenota la tua visita al Museo "Le meraviglie del '900"</h4>
+        <br><br><br>
+        <form method="post" action="prenotazione.php">
+            <label for="nome">Nome:</label>
+            <input id="nome" name="nome" type="text">
+            <br><br>
+            <label for="cognome">Cognome</label>
+            <input id="cognome" name="cognome" type="text">
+            <br><br>
+            <label for="recapito">Numero di telefono</label>
+            <input id="recapito" name="recapito" type="number">
+            <br><br>
+            <label for="mostra">Scegli la mostra da visitare</label>
+            <select id="mostra" name="mostra">
+                <option>Mostra graffiti</option>
+                <option>Mostra surrealismo</option>
+                <option>Mostra futurismo</option>
+            </select>
+            <br><br>
+            <input type="submit" name="Prenotazione" value="Prenota visita">
+        </form>
+    </body>
+</html>
