@@ -1,0 +1,60 @@
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <title>Registrazione</title>
+        <script type="text/javascript" src="./redirect.js"></script>
+        <script type="text/javascript" src="./register.js"></script>
+    </head>
+
+    <body>
+        <h2>Museo "Le meraviglie del '900"</h2>
+        <h4>Registrati</h4>
+        <table id="tableLogin">
+            <tr>
+                <td>
+                    <label for="name">Username:</label>
+                </td>
+                <td>
+                    <input type="text" id="name" name="nome" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="surname">Cognome:</label>
+                </td>
+                <td>
+                    <input type="text" id="surname" name="cognome" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="recapito">Recapito telefonico:</label>
+                </td>
+                <td>
+                    <input type="text" id="recapito" name="recapito" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="username">Username:</label>
+                </td>
+                <td>
+                    <input type="text" id="username" name="username" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password:</label>
+                </td>
+                <td>
+                    <input type="password" id="password" name="password" required>
+                </td>
+            </tr>
+            <tr>
+                <td id="buttonRegister">
+                    <input type="button" value="Registrati" onclick="register()">
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
